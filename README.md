@@ -1,6 +1,8 @@
 # 🧾 OCR AI App – Text Extraction from Images using Groq Vision LLM
 
-A simple yet powerful web app to extract structured text from images using the **Groq Vision LLM** (Llama 4 Scout). Built with **Streamlit**, this tool supports image formats like JPG, PNG, and JPEG, and allows users to download or view extracted content in Markdown format.
+A simple yet powerful web app to extract structured text from images using the **Groq Vision LLM** (Llama 4 Scout : `meta-llama/llama-4-scout-17b-16e-instruct`). Built with **Streamlit**, this tool supports image formats like JPG, PNG, and JPEG, and allows users to download or view extracted content in Markdown format.
+
+![OCR-APP](sc_ocr_1.png)
 
 ---
 
@@ -13,7 +15,6 @@ A simple yet powerful web app to extract structured text from images using the *
 - Clean, responsive UI with Streamlit
 - Uses `st.secrets` for secure API key handling
 
----
 
 # Use-cases : 
 - Extracting text from receipts and invoices
@@ -21,7 +22,6 @@ A simple yet powerful web app to extract structured text from images using the *
 - Converting printed material into editable text
 - Automating data entry tasks
 
----
 
 ## 🚀 Technologies Used
 
@@ -30,7 +30,7 @@ A simple yet powerful web app to extract structured text from images using the *
 - [Pillow (PIL)](https://pillow.readthedocs.io/) – For image processing
 - [Base64](https://docs.python.org/3/library/base64.html) – For encoding images
 
----
+
 
 ## 📦 Prerequisites
 
